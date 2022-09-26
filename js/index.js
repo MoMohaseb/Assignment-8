@@ -1,6 +1,3 @@
-
-
-
 var quotes = [
     { 'author': 'Oscar Wilde',
     'quote': 'Be yourself; everyone else is already taken.',
@@ -21,12 +18,12 @@ var quotes = [
     'quote': 'If you tell the truth, you do not have to remember anything.',
     },
     { 'author': 'Elbert Hubbard',
-    'quote': 'A friend is someone who knows all about you and still loves you..',
+    'quote': 'A friend is someone who knows all about you and still loves you.',
     },
     { 'author': 'Ralph Waldo Emerson',
     'quote': 'To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.',
     },
-    { 'author': ' Andre Gide, Autumn Leaves',
+    { 'author': 'Andre Gide, Autumn Leaves',
     'quote': 'It is better to be hated for what you are than to be loved for what you are not.',
     },
     { 'author': 'Margret Atwood',
@@ -37,7 +34,7 @@ var quotes = [
 
 function getQuote() {
     var randomNumber = Math.floor(Math.random() * quotes.length);
-    document.getElementById('quote').innerHTML = `\"${quotes[randomNumber].quote}\"`;
-    document.getElementById('author').innerHTML = `--${quotes[randomNumber].author}`;
+    document.getElementById('quote').innerHTML = `"${quotes[randomNumber].quote}"`;
+    document.getElementById('author').innerHTML = `-- ${quotes[randomNumber].author}`;
 
 }
